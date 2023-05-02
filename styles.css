@@ -1,0 +1,53 @@
+body {
+  background-color: #E6F7FF; /* 배경색 */
+  color: #003366; /* 텍스트 색상 */
+}
+
+header {
+  background-color: #003366; /* 헤더 배경색 */
+  color: #ffffff; /* 헤더 텍스트 색상 */
+}
+
+nav ul li a:hover {
+  color: #ffffff; /* 네비게이션 메뉴 호버 시 텍스트 색상 */
+}
+
+section {
+  background-color: #B4D8E7; /* 섹션 배경색 */
+  color: #003366; /* 섹션 텍스트 색상 */
+}
+
+section h2 {
+  color: #ffffff; /* 섹션 제목 텍스트 색상 */
+}
+
+footer {
+  background-color: #003366; /* 푸터 배경색 */
+  color: #ffffff; /* 푸터 텍스트 색상 */
+}
+
+nav ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+nav li {
+  padding: 10px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  text-align: left;
+}
+
+nav ul li a {
+  color: white;
+}
+
+body {
+  margin: 0;
+}
